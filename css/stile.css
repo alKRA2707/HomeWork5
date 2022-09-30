@@ -1,0 +1,126 @@
+body {
+    font: 16px/1.63 'Roboto', 'Arial', 'Helvetica', 'sans-serif';
+    color:  #727272;
+}
+
+h1 {
+    margin-top: 0;
+    color: black;
+}
+
+/*header container 1*/
+
+.container {
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+/* main-section*/
+
+.container-small {
+    max-width: 540px;
+    margin: 0 auto;
+    padding-left: 89px;
+}
+
+.main-section .container-small {
+    margin: 0;
+}
+
+.main-section {
+    background:#EEEFF1 ;
+    padding-bottom: 200px;
+}
+
+button {
+    position: absolute;
+width: 225px;
+height: 65px;
+
+top: 494px;
+
+background: #34547A
+}
+
+/* header-section*/
+
+.site-header {
+    color: black;
+    padding: 80px 0;
+    background: #EEEFF1;
+    padding-bottom: 150px;
+}
+
+.header-nav a {
+    list-style-type: none;
+    color: inherit;
+    margin-right: 42px;
+    text-transform: uppercase;
+}
+
+.header-nav a:hover {
+    color:  #34547A;
+}
+
+.header-nav a.active {
+    font-weight: 500;
+    color:  #34547A;
+}
+
+/* Menu with drob-down*/
+
+.list {
+    list-style-type: none;
+   
+}
+
+.list>li {
+    display: inline-block;
+    position: relative;
+}
+
+.list>li:hover .drob-down {
+    display: block;
+}
+
+.list a {
+    text-decoration: none;
+    display: inline-block;
+    
+}
+
+.drob-down {
+    position: absolute;
+    display: block;
+    padding-left: 0;
+    text-decoration: none;
+    list-style-type: none;
+    display: none;
+    z-index: 1;
+}
+
+/* drobdown 2*/
+
+.list>li>ul>li {
+    display: inline-block;
+    position: relative;
+}
+
+.list>li>ul>li:hover .drobdown {
+    display: block;
+}
+
+.drobdown {
+    position: absolute;
+    display: block;
+    padding-left: 20;
+    padding-bottom: 10px;
+    text-decoration: none;
+    list-style-type: none;
+    top: 100%;
+    margin: 10px;
+    z-index: 10;
+    display: none;
+}
+
